@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto-Regular';
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(Roboto-Regular.ttf)
+}
+@media only screen and (max-width: 992px){
+    #content{
+        display: block !important;
+      
+    }
+    .box{
+       margin-bottom: 30px !important;
+    }
+    img{
+        top:-108% !important;
+        right:0 !important;
+    }
+}
+body{
+    background: linear-gradient(297.24deg, #E8EFFC 8.25%, #FFFFFF 91.76%);
+}
+.abc{
+    color:red;
+}
+h1{
+
+        font-size: 45px;
+        font-weight: 300;
+        line-height: 53px;
+        letter-spacing: -1.7335766553878784px;
+        margin-bottom: 50px;
+}
+.box{
+    width:296.55px;
+    height: 354px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 50px 0px 24px 0px;
+    box-shadow: 0.82374507188797px 1.64749014377594px 2.4712350368499756px 0px rgba(0, 0, 0, 0.0966);
+border-radius: 8px;
+position: relative;
+}
+#content :nth-child(1) span{
+    
+    margin-bottom:12px;
+    color:rgba(125, 200, 85, 1) !important;
+    margin-bottom: 0;
+}
+h5{
+    
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:rgba(67, 72, 77, 1);
+    margin-bottom: 12px;
+}
+hr{
+    width: 100%;
+    
+    height: 0.82374507188797px;
+    top: 452.67259216308594px;
+    left: 115.46533203125px;
+    opacity: 0.5px;
+  color: rgba(225, 232, 238, 1);
+}
+#content :nth-child(1) :nth-child(3) {
+    margin-top:33px;
+    margin-bottom: 20px;
+}
+#content :nth-child(2) :nth-child(3) {
+    margin-top: 53px;
+    margin-bottom: 20px;
+}
+#content :nth-child(3) :nth-child(3) {
+    margin-top: 53px;
+    margin-bottom: 20px;
+}
+#content :nth-child(2) :nth-child(2)  {
+    padding-left: 30px;
+   padding-right: 30px;
+}
+#content :nth-child(2) :nth-child(4) {
+    padding-left: 17px !important;
+    padding-right: 24px;
+}
+#content :nth-child(3) :nth-child(4) {
+    padding-left: 17px !important;
+    padding-right: 24px;
+}
+#content > :nth-child(2)  {
+    border: 2px solid rgba(53, 142, 215, 0.21);
+    position: relative;
+}
+span{
+    
+    font-size: 43px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: -1.64749014377594px;
+    color: rgba(67, 72, 77, 1)
+}
+
+.box :nth-child(2) {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:rgba(134, 147, 158, 1)
+}
+
+.flexBox :nth-child(2) {
+   
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(134, 147, 158, 1);
+    margin-bottom: 0;
+    padding: 0 !important;
+}
+.flexBox{
+    display: flex;
+    align-items: center;
+    gap:24px;
+    padding-left: 35px;
+    padding-right: 24px;
+}
+
+button{
+    width: 247.12351989746094px;
+    height: 49.42470169067383px;
+    background: rgba(125, 200, 85, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+    border:0;
+    border-radius: 8px;
+    margin-left:24.71px;
+    margin-top: 21.42px;
+
+}
+.batona{
+    height: 200px;
+}
+
